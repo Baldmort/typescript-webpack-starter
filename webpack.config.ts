@@ -4,9 +4,7 @@ import { CleanWebpackPlugin } from 'clean-webpack-plugin';
 
 const webpackConfig: webpack.Configuration = {
   mode: 'production',
-  entry: {
-    architekton: './architekton.ts',
-  },
+  entry: './index.ts',
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: '[name].js',

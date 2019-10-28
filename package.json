@@ -1,9 +1,9 @@
 {
-  "name": "architekton",
+  "name": "typescript-webpack-starter",
   "version": "1.0.0",
-  "description": "Let me furnish for you",
+  "description": "A starter template for TypeScript and webpack with typescript-eslint",
   "private": true,
-  "main": "architekton.ts",
+  "main": "index.ts",
   "scripts": {
     "build": "webpack --config webpack.config.ts",
     "lint": "eslint . --ext .js,.ts",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Baldmort/architekton.git"
+    "url": "git+https://github.com/Baldmort/typescript-webpack-starter.git"
   },
   "author": "Baldmort",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Baldmort/architekton/issues"
+    "url": "https://github.com/Baldmort/typescript-webpack-starter/issues"
   },
-  "homepage": "https://github.com/Baldmort/architekton#readme",
+  "homepage": "https://github.com/Baldmort/typescript-webpack-starter#readme",
   "devDependencies": {
     "@types/node": "^12.11.6",
     "@types/webpack": "^4.39.5",
